@@ -8,6 +8,7 @@ Version:        0.1.0
 */
 
 /* Color Pallete */
+/* Apparently, custom properties are not supported in RemoteCSS */
 :root {
 	--color-white: #fff;
 	--color-black: #000;
@@ -26,7 +27,7 @@ html {
 }
 
 body {
-	color: var(--color-text);
+	color: #00a99d;
 	font-family: 'proxima-nova', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
@@ -128,7 +129,7 @@ textarea {
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #ffffff;
 	border: 1px solid #c9ccdd;
 	border-radius: 2px;
@@ -239,7 +240,7 @@ a.cta-button {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #38ccd5;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -274,7 +275,7 @@ input[type='submit']:focus,
 input[type='reset']:focus,
 button:focus,
 a.cta-button:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 
 .entry-content .wp-block-button__link {
@@ -285,7 +286,7 @@ a.cta-button:focus {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #38ccd5;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -304,12 +305,12 @@ a.cta-button:focus {
 		0 1px 1px 0 rgba(22, 82, 85, 0.1);
 }
 .entry-content .wp-block-button__link:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 .entry-content .wp-block-button__link:hover,
 .entry-content .wp-block-button__link:active,
 .entry-content .wp-block-button__link:focus {
-	color: var(--color-text);
+	color: #00a99d;
 	background: #38ccd5;
 }
 
@@ -329,7 +330,7 @@ a.cta-button:focus {
 .page-navigation-container {
 	position: relative;
 	z-index: 1;
-	background: var(--color-white);
+	background: #fff;
 	background: rgba(255, 255, 255, 0.85);
 }
 .page-navigation-container .menu-primary-nav-container {
@@ -339,7 +340,7 @@ a.cta-button:focus {
 }
 .page-navigation-container a {
 	padding: 30px 20px;
-	color: var(--color-text-alt);
+	color: #3c4595;
 	font-size: 18px;
 	font-size: 1.8rem;
 	font-weight: bold;
@@ -356,7 +357,7 @@ a.cta-button:focus {
 } */
 .page-navigation-container li:hover a,
 .page-navigation-container li.focus a {
-	color: var(--color-text);
+	color: #00a99d;
 	text-decoration: none;
 }
 .page-navigation-container ul ul {
@@ -371,7 +372,7 @@ a.cta-button:focus {
 }
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-	color: var(--color-text);
+	color: #00a99d;
 	margin-left: -15px;
 }
 .page-navigation-container ul ul li:hover a:before,
@@ -384,18 +385,18 @@ a.cta-button:focus {
 .page-navigation-container .callout {
 	position: absolute;
 	right: 0;
-	background: var(--color-text);
+	background: #00a99d;
 }
 .page-navigation-container .callout a {
 	padding: 30px 50px;
 }
 .page-navigation-container .callout:hover,
 .page-navigation-container .callout.focus {
-	background: var(--color-accent);
+	background: #10a968;
 }
 .page-navigation-container .callout:hover a,
 .page-navigation-container .callout.focus a {
-	color: var(--color-text);
+	color: #00a99d;
 }
 /* @media (min-width: 1160px) {
 	.page-navigation-container:after {
@@ -405,7 +406,7 @@ a.cta-button:focus {
 		bottom: 0;
 		right: 0;
 		left: calc(50vw + 580px);
-		background: var(--color-text);
+		background: #00a99d;
 	}
 } */
 
@@ -460,16 +461,16 @@ a.cta-button:focus {
 		background: #38ccd5;
 	}
 	.page-navigation-container .callout a {
-		color: var(--color-text);
+		color: #00a99d;
 	}
 }
 
 .custom-header {
 	background: transparent
-		url(http://wcgvl2019.test/wp-content/uploads/2018/12/banner-bg.png)
+		url(https://2019greenville.wordcamp.org/files/2018/12/banner-bg.png)
 		center center no-repeat;
 	background-size: cover;
-	/* background: var(--color-text); */
+	/* background: #00a99d; */
 	position: relative;
 }
 .custom-header .wp-custom-header,
@@ -477,6 +478,7 @@ a.cta-button:focus {
 	display: block;
 	margin: 0 auto;
 	padding: 175px 0 300px;
+	padding: 175px 2% 165px;
 	max-width: 600px;
 }
 /* .custom-header:before,
@@ -564,7 +566,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #ff9700;
 }
 #content-widget-1 .button:hover,
@@ -576,7 +578,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(102, 60, 0, 0.1);
 }
 #content-widget-1 .button:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 #content-widget-1 .button.span-2 {
 	grid-column: 1 / span 2;
@@ -588,7 +590,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #38ccd5;
 }
 #content-widget-1 .button:nth-of-type(2):hover,
@@ -600,7 +602,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(22, 82, 85, 0.1);
 }
 #content-widget-1 .button:nth-of-type(2):focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 #content-widget-1 .button:nth-of-type(3) {
 	font-size: 28px;
@@ -609,7 +611,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #c6dc00;
 }
 #content-widget-1 .button:nth-of-type(3):hover,
@@ -621,7 +623,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 #content-widget-1 .button:nth-of-type(3):focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 @media screen and (max-width: 800px) {
 	#content-widget-1 .custom-html-widget {
@@ -789,7 +791,7 @@ body:not(.home) .custom-header:after {
 }
 
 #footer-widget-1 {
-	background: var(--color-text);
+	background: #00a99d;
 	margin: 120px 0 60px;
 	padding: 120px 20px;
 }
@@ -898,12 +900,12 @@ body.single .entry-footer .byline {
 	font-size: 1.6rem;
 }
 .post-navigation a {
-	color: var(--color-text);
+	color: #00a99d;
 }
 .post-navigation a:hover,
 .post-navigation a:active,
 .post-navigation a:focus {
-	color: var(--color-text);
+	color: #00a99d;
 }
 .post-navigation .nav-previous:before {
 	content: '\2190';
@@ -972,7 +974,7 @@ body.home:not(.page-template-page-day-of) .entry-content a {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #c6dc00;
 }
 body.home:not(.page-template-page-day-of) .entry-content a:hover,
@@ -984,12 +986,12 @@ body.home:not(.page-template-page-day-of) .entry-content a:focus {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 body.home:not(.page-template-page-day-of) .entry-content a:hover,
 body.home:not(.page-template-page-day-of) .entry-content a:active,
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	color: var(--color-text);
+	color: #00a99d;
 }
 
 body.error404 .page-content {
@@ -1054,8 +1056,8 @@ body.error404 .search-form input {
 	float: left;
 	margin-right: 30px;
 	border-radius: 50%;
-	-webkit-box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 var(--color-text);
-	box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 var(--color-text);
+	-webkit-box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 #00a99d;
+	box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 #00a99d;
 }
 
 .tix_tickets_table .tix-column-description,
@@ -1197,7 +1199,7 @@ body.page-slug-schedule .site-main {
 .wcpt-schedule th {
 	padding: 20px 15px 5px;
 	border-bottom: 2px solid #c6dc00;
-	color: var(--color-text);
+	color: #00a99d;
 	font-weight: 900;
 	text-align: left;
 }
@@ -1256,7 +1258,7 @@ body.page-slug-schedule .site-main {
 	margin-top: 8px;
 }
 .wcpt-schedule .wcpt-session-speakers a {
-	color: var(--color-text);
+	color: #00a99d;
 }
 .wcpt-schedule .wcpt-session-type-custom {
 	text-align: center;
@@ -1297,7 +1299,7 @@ body.page-slug-schedule .site-main {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1;
-	color: var(--color-text);
+	color: #00a99d;
 	border: none;
 	background: rgba(198, 220, 0, 0.4);
 	text-align: center;
@@ -1624,7 +1626,7 @@ body.page-template-page-day-of .entry-content h3 {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #ff9700;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1643,7 +1645,7 @@ body.page-template-page-day-of .entry-content h3 {
 		0 1px 1px 0 rgba(102, 60, 0, 0.1);
 }
 .comment-list .comment-reply-link:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 .comment-list .thread-even .comment-reply-link {
 	font-size: 28px;
@@ -1652,7 +1654,7 @@ body.page-template-page-day-of .entry-content h3 {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: var(--color-text);
+	color: #00a99d;
 	background: #c6dc00;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1671,7 +1673,7 @@ body.page-template-page-day-of .entry-content h3 {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 .comment-list .thread-even .comment-reply-link:focus {
-	outline: 2px solid var(--color-text);
+	outline: 2px solid #00a99d;
 }
 
 .comment-form {
@@ -1685,7 +1687,7 @@ body.page-template-page-day-of .entry-content h3 {
 	font-size: 1.6rem;
 }
 .site-info a {
-	color: var(--color-text);
+	color: #00a99d;
 	text-decoration: underline;
 }
 .site-info a:hover,
