@@ -478,7 +478,7 @@ a.cta-button:focus {
 	display: block;
 	margin: 0 auto;
 	/* padding: 175px 0 300px; */
-	padding: 180px 2% 155px;
+	padding: 180px 2% 160px;
 	max-width: 600px;
 }
 /* .custom-header:before,
@@ -839,9 +839,12 @@ body:not(.home) .custom-header:after {
 	height: 100%;
 }
 
+.site-content {
+	margin: 100px 0;
+}
 .site-main {
 	max-width: 900px;
-	margin: 125px auto 0;
+	margin: 0 auto;
 }
 
 /* body:not(.home) .site-main {
