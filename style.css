@@ -467,7 +467,7 @@ a.cta-button:focus {
 
 .custom-header {
 	background: transparent
-		url('https://2019.greenville.wordcamp.org/files/2018/12/banner-bg.png')
+		url('https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png')
 		center center no-repeat;
 	background-size: cover;
 	/* background: #00a99d; */
@@ -478,7 +478,7 @@ a.cta-button:focus {
 	display: block;
 	margin: 0 auto;
 	/* padding: 175px 0 300px; */
-	padding: 180px 2% 160px;
+	padding: 180px 2% 170px;
 	max-width: 600px;
 }
 /* .custom-header:before,
