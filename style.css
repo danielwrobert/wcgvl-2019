@@ -477,8 +477,8 @@ a.cta-button:focus {
 .custom-header .custom-logo-link {
 	display: block;
 	margin: 0 auto;
-	padding: 175px 0 300px;
-	padding: 175px 2% 165px;
+	/* padding: 175px 0 300px; */
+	padding: 180px 2% 155px;
 	max-width: 600px;
 }
 /* .custom-header:before,
@@ -839,10 +839,21 @@ body:not(.home) .custom-header:after {
 	height: 100%;
 }
 
+.site-main {
+	max-width: 1100px;
+	margin: 125px auto 0;
+}
+
 body:not(.home) .site-main {
 	margin: 0 auto;
 	max-width: 780px;
 	padding: 0 20px;
+}
+
+.site-main .hentry {
+	background-color: #fefefe;
+	padding: 50px;
+	border-top: 5px solid #00a99d;
 }
 
 .hentry + .hentry {
@@ -951,7 +962,7 @@ body.home:not(.page-template-page-day-of) .entry-content {
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 1.55;
-	color: #ffffff;
+	color: #3c4595;
 	text-align: center;
 	margin: auto;
 }
