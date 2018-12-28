@@ -844,11 +844,11 @@ body:not(.home) .custom-header:after {
 	margin: 125px auto 0;
 }
 
-body:not(.home) .site-main {
+/* body:not(.home) .site-main {
 	margin: 0 auto;
 	max-width: 780px;
 	padding: 0 20px;
-}
+} */
 
 .site-main .hentry {
 	background-color: #fefefe;
