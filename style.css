@@ -28,7 +28,7 @@ html {
 
 body {
 	color: #3c4595;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: "proxima-nova", sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 1.55;
@@ -38,7 +38,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'proxima-nova', sans-serif;
+	font-family: "proxima-nova", sans-serif;
 }
 
 h1,
@@ -48,7 +48,7 @@ h4,
 h5,
 h6 {
 	clear: none;
-	font-family: 'freight-sans-condensed-pro', sans-serif;
+	font-family: "freight-sans-condensed-pro", sans-serif;
 }
 
 .wp-block-separator,
@@ -117,11 +117,11 @@ a:visited:focus {
 	line-height: 1.2;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='url'],
-input[type='password'],
-input[type='search'],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
 select,
 textarea {
 	margin: 0;
@@ -136,51 +136,51 @@ textarea {
 	-webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 }
-input[type='text'] ::-webkit-input-placeholder,
-input[type='email'] ::-webkit-input-placeholder,
-input[type='url'] ::-webkit-input-placeholder,
-input[type='password'] ::-webkit-input-placeholder,
-input[type='search'] ::-webkit-input-placeholder,
+input[type="text"] ::-webkit-input-placeholder,
+input[type="email"] ::-webkit-input-placeholder,
+input[type="url"] ::-webkit-input-placeholder,
+input[type="password"] ::-webkit-input-placeholder,
+input[type="search"] ::-webkit-input-placeholder,
 select ::-webkit-input-placeholder,
 textarea ::-webkit-input-placeholder {
 	color: rgba(29, 33, 95, 0.5);
 	opacity: 1;
 }
-input[type='text'] ::-moz-placeholder,
-input[type='email'] ::-moz-placeholder,
-input[type='url'] ::-moz-placeholder,
-input[type='password'] ::-moz-placeholder,
-input[type='search'] ::-moz-placeholder,
+input[type="text"] ::-moz-placeholder,
+input[type="email"] ::-moz-placeholder,
+input[type="url"] ::-moz-placeholder,
+input[type="password"] ::-moz-placeholder,
+input[type="search"] ::-moz-placeholder,
 select ::-moz-placeholder,
 textarea ::-moz-placeholder {
 	color: rgba(29, 33, 95, 0.5);
 	opacity: 1;
 }
-input[type='text'] :-ms-input-placeholder,
-input[type='email'] :-ms-input-placeholder,
-input[type='url'] :-ms-input-placeholder,
-input[type='password'] :-ms-input-placeholder,
-input[type='search'] :-ms-input-placeholder,
+input[type="text"] :-ms-input-placeholder,
+input[type="email"] :-ms-input-placeholder,
+input[type="url"] :-ms-input-placeholder,
+input[type="password"] :-ms-input-placeholder,
+input[type="search"] :-ms-input-placeholder,
 select :-ms-input-placeholder,
 textarea :-ms-input-placeholder {
 	color: rgba(29, 33, 95, 0.5);
 	opacity: 1;
 }
-input[type='text'] :-moz-placeholder,
-input[type='email'] :-moz-placeholder,
-input[type='url'] :-moz-placeholder,
-input[type='password'] :-moz-placeholder,
-input[type='search'] :-moz-placeholder,
+input[type="text"] :-moz-placeholder,
+input[type="email"] :-moz-placeholder,
+input[type="url"] :-moz-placeholder,
+input[type="password"] :-moz-placeholder,
+input[type="search"] :-moz-placeholder,
 select :-moz-placeholder,
 textarea :-moz-placeholder {
 	color: rgba(29, 33, 95, 0.5);
 	opacity: 1;
 }
-input[type='text']:focus,
-input[type='email']:focus,
-input[type='url']:focus,
-input[type='password']:focus,
-input[type='search']:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
 select:focus,
 textarea:focus {
 	outline: 2px solid rgba(29, 33, 95, 0.6);
@@ -188,11 +188,11 @@ textarea:focus {
 	box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
-input[type='text'],
-input[type='email'],
-input[type='url'],
-input[type='password'],
-input[type='search'] {
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
 	padding: 12px 20px 15px;
 }
 
@@ -215,15 +215,15 @@ label {
 	font-weight: bold;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
+input[type="checkbox"],
+input[type="radio"] {
 	font-size: 1em;
 	vertical-align: middle;
 }
 
-input[type='button'],
-input[type='submit'],
-input[type='reset'],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
 button,
 a.cta-button {
 	display: inline-block;
@@ -250,15 +250,15 @@ a.cta-button {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-input[type='button']:hover,
-input[type='button']:active,
-input[type='button']:focus,
-input[type='submit']:hover,
-input[type='submit']:active,
-input[type='submit']:focus,
-input[type='reset']:hover,
-input[type='reset']:active,
-input[type='reset']:focus,
+input[type="button"]:hover,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="submit"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="reset"]:focus,
 button:hover,
 button:active,
 button:focus,
@@ -270,9 +270,9 @@ a.cta-button:focus {
 	box-shadow: 0 2px 7px 2px rgba(22, 82, 85, 0.2),
 		0 1px 1px 0 rgba(22, 82, 85, 0.1);
 }
-input[type='button']:focus,
-input[type='submit']:focus,
-input[type='reset']:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
 button:focus,
 a.cta-button:focus {
 	outline: 2px solid #3c4595;
@@ -378,7 +378,7 @@ a.cta-button:focus {
 .page-navigation-container ul ul li:hover a:before,
 .page-navigation-container ul ul li.focus a:before {
 	display: inline-block;
-	content: '\25cf';
+	content: "\25cf";
 	width: 13px;
 	margin-right: 2px;
 }
@@ -467,7 +467,7 @@ a.cta-button:focus {
 
 .custom-header {
 	background: transparent
-		url('https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png')
+		url("https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png")
 		center center no-repeat;
 	background-size: cover;
 	/* background: #3c4595; */
@@ -546,14 +546,14 @@ body:not(.home) .custom-header:after {
 	font-size: 56px;
 	font-size: 5.6rem;
 	line-height: 1.1;
-	font-family: 'freight-sans-condensed-pro', sans-serif;
+	font-family: "freight-sans-condensed-pro", sans-serif;
 	font-weight: 900;
 	color: #3c4595;
 }
 #content-widget-1 .level-2 {
 	font-size: 42px;
 	font-size: 4.2rem;
-	font-family: 'freight-sans-condensed-pro', sans-serif;
+	font-family: "freight-sans-condensed-pro", sans-serif;
 	font-weight: 900;
 }
 #content-widget-1 .button {
@@ -663,7 +663,7 @@ body:not(.home) .custom-header:after {
 }
 #primary-sidebar .widget_custom_html:before,
 #primary-sidebar .widget_custom_html:after {
-	content: '';
+	content: "";
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -695,7 +695,7 @@ body:not(.home) .custom-header:after {
 	text-align: center;
 }
 #primary-sidebar .custom-html-widget .label {
-	font-family: 'freight-sans-condensed-pro', sans-serif;
+	font-family: "freight-sans-condensed-pro", sans-serif;
 	font-size: 42px;
 	font-size: 4.2rem;
 	line-height: 1.1;
@@ -707,7 +707,7 @@ body:not(.home) .custom-header:after {
 #primary-sidebar .custom-html-widget a {
 	display: inline-block;
 	padding: 20px 30px;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: "proxima-nova", sans-serif;
 	font-size: 28px;
 	font-size: 2.8rem;
 	line-height: 1;
@@ -833,7 +833,7 @@ body:not(.home) .custom-header:after {
 		grid-column: 1;
 	}
 }
-#footer-widget-1 input[type='submit'] {
+#footer-widget-1 input[type="submit"] {
 	width: 100%;
 	height: 100%;
 }
@@ -921,11 +921,11 @@ body.single .entry-footer .byline {
 	color: #3c4595;
 }
 .post-navigation .nav-previous:before {
-	content: '\2190';
+	content: "\2190";
 	margin-right: 4px;
 }
 .post-navigation .nav-next:after {
-	content: '\2192';
+	content: "\2192";
 	margin-left: 4px;
 }
 
@@ -974,7 +974,7 @@ body.home:not(.page-template-page-day-of) .entry-content .cfa-title {
 	font-size: 56px;
 	font-size: 5.6rem;
 	line-height: 1.1;
-	font-family: 'freight-sans-condensed-pro', sans-serif;
+	font-family: "freight-sans-condensed-pro", sans-serif;
 	font-weight: 900;
 	text-align: center;
 }
@@ -1035,8 +1035,8 @@ body.error404 .search-form input {
 	margin-bottom: 20px;
 }
 
-.contact-form input[type='radio'],
-.contact-form input[type='checkbox'] {
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
 	margin-right: 5px;
 	margin-bottom: 7px !important;
 	vertical-align: middle;
@@ -1155,9 +1155,9 @@ body.error404 .search-form input {
 .tix-attendee-form .tix-right br {
 	display: none;
 }
-.tix-attendee-form .tix-right input[type='text'],
-.tix-attendee-form .tix-right input[type='email'],
-.tix-attendee-form .tix-right input[type='url'] {
+.tix-attendee-form .tix-right input[type="text"],
+.tix-attendee-form .tix-right input[type="email"],
+.tix-attendee-form .tix-right input[type="url"] {
 	width: 100%;
 }
 .tix-attendee-form .tix-right textarea {
@@ -1166,7 +1166,7 @@ body.error404 .search-form input {
 	resize: vertical;
 }
 
-#tix-coupon-container:not([style='display: none;']) {
+#tix-coupon-container:not([style="display: none;"]) {
 	width: 100%;
 	display: -webkit-box !important;
 	display: -ms-flexbox !important;
@@ -1175,25 +1175,25 @@ body.error404 .search-form input {
 	-ms-flex-align: center;
 	align-items: center;
 }
-#tix-coupon-container:not([style='display: none;']):before {
-	content: 'Coupon Code:';
+#tix-coupon-container:not([style="display: none;"]):before {
+	content: "Coupon Code:";
 	display: inline-block;
 	width: 100px;
 	text-align: left;
 	font-size: 16px;
 	font-size: 1.6rem;
 }
-#tix-coupon-container:not([style='display: none;']) #tix-coupon-input {
+#tix-coupon-container:not([style="display: none;"]) #tix-coupon-input {
 	padding: 9px 20px 12px;
 	width: calc(100% - 250px);
 	border-radius: 0;
 }
-#tix-coupon-container:not([style='display: none;'])
-	input[name='tix_coupon_submit'] {
+#tix-coupon-container:not([style="display: none;"])
+	input[name="tix_coupon_submit"] {
 	float: right;
 }
 @media (max-width: 400px) {
-	#tix-coupon-container:not([style='display: none;']) input {
+	#tix-coupon-container:not([style="display: none;"]) input {
 		display: block;
 		margin: 0;
 		width: 100%;
@@ -1286,8 +1286,8 @@ body.page-slug-schedule .site-main {
 	.wcpt-schedule {
 		border-bottom: none;
 	}
-	.wcpt-schedule .global-session td[class*='wcb-track']:before {
-		content: 'Large Ballroom';
+	.wcpt-schedule .global-session td[class*="wcb-track"]:before {
+		content: "Large Ballroom";
 	}
 	.wcpt-schedule tr {
 		border: none;
@@ -1300,7 +1300,7 @@ body.page-slug-schedule .site-main {
 		word-wrap: break-word;
 	}
 }
-.wcpt-schedule td[class*='wcb-track']:before {
+.wcpt-schedule td[class*="wcb-track"]:before {
 	display: block;
 	margin: -20px -15px 5px;
 	padding: 10px 15px;
@@ -1319,37 +1319,37 @@ body.page-slug-schedule .site-main {
 }
 @media screen and (min-width: 701px) {
 	.wcpt-schedule .wcb-track-advanced-developers:before {
-		content: 'Advanced Developers';
+		content: "Advanced Developers";
 	}
 	.wcpt-schedule .wcb-track-business:before {
-		content: 'Business & Freelancing';
+		content: "Business & Freelancing";
 	}
 	.wcpt-schedule .wcb-track-community:before {
-		content: 'Community';
+		content: "Community";
 	}
 	.wcpt-schedule .wcb-track-content:before {
-		content: 'Content & Social Media';
+		content: "Content & Social Media";
 	}
 	.wcpt-schedule .wcb-track-developers:before {
-		content: 'Developers';
+		content: "Developers";
 	}
 	.wcpt-schedule .wcb-track-gutenberg:before {
-		content: 'Gutenberg';
+		content: "Gutenberg";
 	}
 	.wcpt-schedule .wcb-track-higher-education:before {
-		content: 'Higher Education';
+		content: "Higher Education";
 	}
 	.wcpt-schedule .wcb-track-intro-to-wordpress:before {
-		content: 'Intro to WordPress';
+		content: "Intro to WordPress";
 	}
 	.wcpt-schedule .wcb-track-lightning-talks:before {
-		content: 'Lightning Talks';
+		content: "Lightning Talks";
 	}
 	.wcpt-schedule .wcb-track-site-builders:before {
-		content: 'Site Builders';
+		content: "Site Builders";
 	}
 	.wcpt-schedule .wcb-track-workshops:before {
-		content: 'Workshops';
+		content: "Workshops";
 	}
 }
 
@@ -1357,112 +1357,112 @@ body.page-slug-schedule .site-main {
 	display: inline-block;
 }
 .wcpt-schedule-saturday .wcpt-time-800am .wcpt-time:after {
-	content: '– 9:00 am';
+	content: "– 9:00 am";
 }
 .wcpt-schedule-saturday .wcpt-time-900am .wcpt-time:after {
-	content: '– 9:10 am';
+	content: "– 9:10 am";
 }
 .wcpt-schedule-saturday .wcpt-time-910am .wcpt-time:after {
-	content: '– 10:00 am';
+	content: "– 10:00 am";
 }
 .wcpt-schedule-saturday .wcpt-time-1000am .wcpt-time:after {
-	content: '– 10:10 am';
+	content: "– 10:10 am";
 }
 .wcpt-schedule-saturday .wcpt-time-1010am .wcpt-time:after {
-	content: '– 10:50 am';
+	content: "– 10:50 am";
 }
 .wcpt-schedule-saturday .wcpt-time-1050am .wcpt-time:after {
-	content: '– 11:00 am';
+	content: "– 11:00 am";
 }
 .wcpt-schedule-saturday .wcpt-time-1100am .wcpt-time:after {
-	content: '– 11:40 am';
+	content: "– 11:40 am";
 }
 .wcpt-schedule-saturday .wcpt-time-1140am .wcpt-time:after {
-	content: '– 11:50 pm';
+	content: "– 11:50 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-1150am .wcpt-time:after {
-	content: '– 12:30 pm';
+	content: "– 12:30 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-1230pm .wcpt-time:after {
-	content: '– 1:30 pm';
+	content: "– 1:30 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-130pm .wcpt-time:after {
-	content: '– 1:45 pm';
+	content: "– 1:45 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-145pm .wcpt-time:after {
-	content: '– 2:10 pm';
+	content: "– 2:10 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-210pm .wcpt-time:after {
-	content: '– 2:20 pm';
+	content: "– 2:20 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-220pm .wcpt-time:after {
-	content: '– 3:00 pm';
+	content: "– 3:00 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-300pm .wcpt-time:after {
-	content: '– 3:10 pm';
+	content: "– 3:10 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-310pm .wcpt-time:after {
-	content: '– 3:50 pm';
+	content: "– 3:50 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-350pm .wcpt-time:after {
-	content: '– 4:10 pm';
+	content: "– 4:10 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-410pm .wcpt-time:after {
-	content: '– 4:50 pm';
+	content: "– 4:50 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-450pm .wcpt-time:after {
-	content: '– 5:00 pm';
+	content: "– 5:00 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-500pm .wcpt-time:after {
-	content: '– 5:40 pm';
+	content: "– 5:40 pm";
 }
 .wcpt-schedule-saturday .wcpt-time-545pm .wcpt-time:after {
-	content: '– 9:00 pm';
+	content: "– 9:00 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-1100am .wcpt-time:after {
-	content: '– 11:30 am';
+	content: "– 11:30 am";
 }
 .wcpt-schedule-sunday .wcpt-time-1130am .wcpt-time:after {
-	content: '– 12:10 pm';
+	content: "– 12:10 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-1210pm .wcpt-time:after {
-	content: '– 12:20 pm';
+	content: "– 12:20 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-1220pm .wcpt-time:after {
-	content: '– 1:00 pm';
+	content: "– 1:00 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-100pm .wcpt-time:after {
-	content: '– 1:10 pm';
+	content: "– 1:10 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-110pm .wcpt-time:after {
-	content: '– 1:50 pm';
+	content: "– 1:50 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-150pm .wcpt-time:after {
-	content: '– 2:10 pm';
+	content: "– 2:10 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-210pm .wcpt-time:after {
-	content: '– 2:50 pm';
+	content: "– 2:50 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-250pm .wcpt-time:after {
-	content: '– 3:00 pm';
+	content: "– 3:00 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-300pm .wcpt-time:after {
-	content: '– 3:40 pm';
+	content: "– 3:40 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-340pm .wcpt-time:after {
-	content: '– 3:50 pm';
+	content: "– 3:50 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-350pm .wcpt-time:after {
-	content: '– 4:30 pm';
+	content: "– 4:30 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-430pm .wcpt-time:after {
-	content: '– 4:40 pm';
+	content: "– 4:40 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-440pm .wcpt-time:after {
-	content: '– 5:20 pm';
+	content: "– 5:20 pm";
 }
 .wcpt-schedule-sunday .wcpt-time-520pm .wcpt-time:after {
-	content: '– 5:30 pm';
+	content: "– 5:30 pm";
 }
 @media screen and (max-width: 700px) {
 	.wcpt-time:after {
@@ -1712,6 +1712,9 @@ body.page-template-page-day-of .entry-content h3 {
 }
 .site-info .site-info-generator:after {
 	display: block;
-	content: '';
+	content: "";
 	height: 16px;
+}
+.site-info span[role="separator"] {
+	display: none;
 }
