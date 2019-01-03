@@ -960,12 +960,12 @@ body.home:not(.page-template-page-day-of) .hentry:after {
 } */
 
 body.home:not(.page-template-page-day-of) .entry-content {
-	max-width: 780px;
+	/*max-width: 780px;*/
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 1.55;
 	color: #3c4595;
-	text-align: center;
+	/*text-align: center;*/
 	margin: auto;
 }
 body.home:not(.page-template-page-day-of) .entry-content .cfa-title {
