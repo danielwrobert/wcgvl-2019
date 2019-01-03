@@ -855,7 +855,7 @@ body:not(.home) .custom-header:after {
 .site-main .hentry {
 	background-color: #fefefe;
 	padding: 50px;
-	border-top: 5px solid #3c4595;
+	border-top: 5px solid #10a968;
 }
 
 .hentry + .hentry {
