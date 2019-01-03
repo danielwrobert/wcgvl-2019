@@ -12,9 +12,9 @@ Version:        0.1.0
 :root {
 	--color-white: #fff;
 	--color-black: #000;
-	--color-accent: #10a968;
-	--color-text: #00a99d;
-	--color-text-alt: #3c4595;
+	--color-text: #3c4595;
+	--color-accent: #00a99d;
+	--color-accent-alt: #10a968;
 }
 
 * {
@@ -27,7 +27,7 @@ html {
 }
 
 body {
-	color: #00a99d;
+	color: #3c4595;
 	font-family: 'proxima-nova', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
@@ -56,7 +56,7 @@ hr {
 	height: 2px;
 	max-width: 66%;
 	border-bottom: 0;
-	background-color: #a00a74;
+	background-color: #3c4595;
 }
 
 p {
@@ -77,7 +77,7 @@ img {
 
 a,
 a:visited {
-	color: #a00a74;
+	color: #00a99d;
 	text-decoration: none;
 }
 a:hover,
@@ -86,7 +86,7 @@ a:focus,
 a:visited:hover,
 a:visited:active,
 a:visited:focus {
-	color: #880963;
+	color: #00a99d;
 	text-decoration: underline;
 }
 
@@ -129,7 +129,7 @@ textarea {
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1;
-	color: #00a99d;
+	color: #3c4595;
 	background: #ffffff;
 	border: 1px solid #c9ccdd;
 	border-radius: 2px;
@@ -240,7 +240,7 @@ a.cta-button {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #38ccd5;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -275,7 +275,7 @@ input[type='submit']:focus,
 input[type='reset']:focus,
 button:focus,
 a.cta-button:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 
 .entry-content .wp-block-button__link {
@@ -286,7 +286,7 @@ a.cta-button:focus {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #38ccd5;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -305,12 +305,12 @@ a.cta-button:focus {
 		0 1px 1px 0 rgba(22, 82, 85, 0.1);
 }
 .entry-content .wp-block-button__link:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 .entry-content .wp-block-button__link:hover,
 .entry-content .wp-block-button__link:active,
 .entry-content .wp-block-button__link:focus {
-	color: #00a99d;
+	color: #3c4595;
 	background: #38ccd5;
 }
 
@@ -357,7 +357,7 @@ a.cta-button:focus {
 } */
 .page-navigation-container li:hover a,
 .page-navigation-container li.focus a {
-	color: #00a99d;
+	color: #3c4595;
 	text-decoration: none;
 }
 .page-navigation-container ul ul {
@@ -367,12 +367,12 @@ a.cta-button:focus {
 }
 .page-navigation-container ul ul a {
 	padding: 8px 30px;
-	/* color: #a00a74; */
+	/* color: #3c4595; */
 	width: 17em;
 }
 .page-navigation-container ul ul li:hover a,
 .page-navigation-container ul ul li.focus a {
-	color: #00a99d;
+	color: #3c4595;
 	margin-left: -15px;
 }
 .page-navigation-container ul ul li:hover a:before,
@@ -385,18 +385,18 @@ a.cta-button:focus {
 .page-navigation-container .callout {
 	position: absolute;
 	right: 0;
-	background: #00a99d;
+	background: #3c4595;
 }
 .page-navigation-container .callout a {
 	padding: 30px 50px;
 }
 .page-navigation-container .callout:hover,
 .page-navigation-container .callout.focus {
-	background: #10a968;
+	background: #00a99d;
 }
 .page-navigation-container .callout:hover a,
 .page-navigation-container .callout.focus a {
-	color: #00a99d;
+	color: #3c4595;
 }
 /* @media (min-width: 1160px) {
 	.page-navigation-container:after {
@@ -406,7 +406,7 @@ a.cta-button:focus {
 		bottom: 0;
 		right: 0;
 		left: calc(50vw + 580px);
-		background: #00a99d;
+		background: #3c4595;
 	}
 } */
 
@@ -437,7 +437,7 @@ a.cta-button:focus {
 	}
 	.page-navigation-container a:focus {
 		background: #ffffff;
-		color: #a00a74 !important;
+		color: #3c4595 !important;
 	}
 	.page-navigation-container a {
 		padding: 10px !important;
@@ -461,7 +461,7 @@ a.cta-button:focus {
 		background: #38ccd5;
 	}
 	.page-navigation-container .callout a {
-		color: #00a99d;
+		color: #3c4595;
 	}
 }
 
@@ -470,7 +470,7 @@ a.cta-button:focus {
 		url('https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png')
 		center center no-repeat;
 	background-size: cover;
-	/* background: #00a99d; */
+	/* background: #3c4595; */
 	position: relative;
 }
 .custom-header .wp-custom-header,
@@ -548,7 +548,7 @@ body:not(.home) .custom-header:after {
 	line-height: 1.1;
 	font-family: 'freight-sans-condensed-pro', sans-serif;
 	font-weight: 900;
-	color: #a00a74;
+	color: #3c4595;
 }
 #content-widget-1 .level-2 {
 	font-size: 42px;
@@ -565,7 +565,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #ff9700;
 }
 #content-widget-1 .button:hover,
@@ -577,7 +577,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(102, 60, 0, 0.1);
 }
 #content-widget-1 .button:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 #content-widget-1 .button.span-2 {
 	grid-column: 1 / span 2;
@@ -589,7 +589,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #38ccd5;
 }
 #content-widget-1 .button:nth-of-type(2):hover,
@@ -601,7 +601,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(22, 82, 85, 0.1);
 }
 #content-widget-1 .button:nth-of-type(2):focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 #content-widget-1 .button:nth-of-type(3) {
 	font-size: 28px;
@@ -610,7 +610,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #c6dc00;
 }
 #content-widget-1 .button:nth-of-type(3):hover,
@@ -622,7 +622,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 #content-widget-1 .button:nth-of-type(3):focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 @media screen and (max-width: 800px) {
 	#content-widget-1 .custom-html-widget {
@@ -659,7 +659,7 @@ body:not(.home) .custom-header:after {
 	-webkit-transform: rotate(-2deg);
 	transform: rotate(-2deg);
 	position: relative;
-	background: #a00a74;
+	background: #3c4595;
 }
 #primary-sidebar .widget_custom_html:before,
 #primary-sidebar .widget_custom_html:after {
@@ -672,7 +672,7 @@ body:not(.home) .custom-header:after {
 	z-index: -1;
 }
 #primary-sidebar .widget_custom_html:before {
-	background: #a00a74;
+	background: #3c4595;
 	-webkit-transform: rotate(0deg);
 	transform: rotate(0deg);
 }
@@ -714,7 +714,7 @@ body:not(.home) .custom-header:after {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #a00a74;
+	color: #3c4595;
 	background: #ffffff;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -733,7 +733,7 @@ body:not(.home) .custom-header:after {
 		0 1px 1px 0 rgba(102, 102, 102, 0.1);
 }
 #primary-sidebar .custom-html-widget a:focus {
-	outline: 2px solid #a00a74;
+	outline: 2px solid #3c4595;
 }
 #primary-sidebar .custom-html-widget a:hover,
 #primary-sidebar .custom-html-widget a:active,
@@ -744,8 +744,8 @@ body:not(.home) .custom-header:after {
 		0 0.5px 0.5px 0 rgba(0, 0, 0, 0.1);
 }
 #primary-sidebar .custom-html-widget a:focus {
-	-webkit-box-shadow: inset 0 0 0 2px #ffffff, inset 0 0 0 4px #a00a74;
-	box-shadow: inset 0 0 0 2px #ffffff, inset 0 0 0 4px #a00a74;
+	-webkit-box-shadow: inset 0 0 0 2px #ffffff, inset 0 0 0 4px #3c4595;
+	box-shadow: inset 0 0 0 2px #ffffff, inset 0 0 0 4px #3c4595;
 }
 @media screen and (max-width: 800px) {
 	#primary-sidebar .custom-html-widget {
@@ -790,7 +790,7 @@ body:not(.home) .custom-header:after {
 }
 
 #footer-widget-1 {
-	background: #00a99d;
+	background: #3c4595;
 	margin: 120px 0 60px;
 	padding: 120px 20px;
 }
@@ -855,7 +855,7 @@ body:not(.home) .custom-header:after {
 .site-main .hentry {
 	background-color: #fefefe;
 	padding: 50px;
-	border-top: 5px solid #00a99d;
+	border-top: 5px solid #3c4595;
 }
 
 .hentry + .hentry {
@@ -892,7 +892,7 @@ body.single .entry-footer .byline {
 .entry-title {
 	margin-top: 0;
 	margin-bottom: 20px;
-	color: #a00a74;
+	color: #00a99d;
 	font-weight: 900;
 	line-height: 1.1;
 }
@@ -913,12 +913,12 @@ body.single .entry-footer .byline {
 	font-size: 1.6rem;
 }
 .post-navigation a {
-	color: #00a99d;
+	color: #3c4595;
 }
 .post-navigation a:hover,
 .post-navigation a:active,
 .post-navigation a:focus {
-	color: #00a99d;
+	color: #3c4595;
 }
 .post-navigation .nav-previous:before {
 	content: '\2190';
@@ -987,7 +987,7 @@ body.home:not(.page-template-page-day-of) .entry-content a {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #c6dc00;
 }
 body.home:not(.page-template-page-day-of) .entry-content a:hover,
@@ -999,12 +999,12 @@ body.home:not(.page-template-page-day-of) .entry-content a:focus {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 body.home:not(.page-template-page-day-of) .entry-content a:hover,
 body.home:not(.page-template-page-day-of) .entry-content a:active,
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	color: #00a99d;
+	color: #3c4595;
 }
 
 body.error404 .page-content {
@@ -1053,7 +1053,7 @@ body.error404 .search-form input {
 }
 .contact-form .grunion-field-label span {
 	margin-left: 10px;
-	color: #a00a74;
+	color: #3c4595;
 }
 
 .wcorg-organizers .wcorg-organizer {
@@ -1069,8 +1069,8 @@ body.error404 .search-form input {
 	float: left;
 	margin-right: 30px;
 	border-radius: 50%;
-	-webkit-box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 #00a99d;
-	box-shadow: 7px 7px 0 #a00a74, -7px -7px 0 #00a99d;
+	-webkit-box-shadow: 7px 7px 0 #3c4595, -7px -7px 0 #3c4595;
+	box-shadow: 7px 7px 0 #3c4595, -7px -7px 0 #3c4595;
 }
 
 .tix_tickets_table .tix-column-description,
@@ -1212,7 +1212,7 @@ body.page-slug-schedule .site-main {
 .wcpt-schedule th {
 	padding: 20px 15px 5px;
 	border-bottom: 2px solid #c6dc00;
-	color: #00a99d;
+	color: #3c4595;
 	font-weight: 900;
 	text-align: left;
 }
@@ -1254,10 +1254,10 @@ body.page-slug-schedule .site-main {
 	background: rgba(198, 220, 0, 0.15);
 }
 .wcpt-schedule td.wcb-favourite-session a.fav-session-button {
-	color: #a00a74;
+	color: #3c4595;
 }
 .wcpt-schedule td div.wcb-session-favourite-icon a.fav-session-button:hover {
-	color: #a00a74 !important;
+	color: #3c4595 !important;
 }
 .wcpt-schedule .global-session td:not(.wcpt-time) {
 	text-align: center;
@@ -1271,7 +1271,7 @@ body.page-slug-schedule .site-main {
 	margin-top: 8px;
 }
 .wcpt-schedule .wcpt-session-speakers a {
-	color: #00a99d;
+	color: #3c4595;
 }
 .wcpt-schedule .wcpt-session-type-custom {
 	text-align: center;
@@ -1312,7 +1312,7 @@ body.page-slug-schedule .site-main {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1;
-	color: #00a99d;
+	color: #3c4595;
 	border: none;
 	background: rgba(198, 220, 0, 0.4);
 	text-align: center;
@@ -1489,8 +1489,8 @@ body.page-slug-attendees .site-main {
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
-	-webkit-box-shadow: 5px 5px 0 #38ccd5, -5px -5px 0 #a00a74;
-	box-shadow: 5px 5px 0 #38ccd5, -5px -5px 0 #a00a74;
+	-webkit-box-shadow: 5px 5px 0 #38ccd5, -5px -5px 0 #3c4595;
+	box-shadow: 5px 5px 0 #38ccd5, -5px -5px 0 #3c4595;
 	margin-bottom: 15px;
 }
 
@@ -1587,7 +1587,7 @@ body.page-template-page-day-of .site-main {
 body.page-template-page-day-of .entry-content h2 {
 	font-size: 56px;
 	font-size: 5.6rem;
-	color: #a00a74;
+	color: #3c4595;
 }
 
 body.page-template-page-day-of .entry-content h3 {
@@ -1639,7 +1639,7 @@ body.page-template-page-day-of .entry-content h3 {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #ff9700;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1658,7 +1658,7 @@ body.page-template-page-day-of .entry-content h3 {
 		0 1px 1px 0 rgba(102, 60, 0, 0.1);
 }
 .comment-list .comment-reply-link:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 .comment-list .thread-even .comment-reply-link {
 	font-size: 28px;
@@ -1667,7 +1667,7 @@ body.page-template-page-day-of .entry-content h3 {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #00a99d;
+	color: #3c4595;
 	background: #c6dc00;
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1686,7 +1686,7 @@ body.page-template-page-day-of .entry-content h3 {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 }
 .comment-list .thread-even .comment-reply-link:focus {
-	outline: 2px solid #00a99d;
+	outline: 2px solid #3c4595;
 }
 
 .comment-form {
@@ -1700,13 +1700,13 @@ body.page-template-page-day-of .entry-content h3 {
 	font-size: 1.6rem;
 }
 .site-info a {
-	color: #00a99d;
+	color: #3c4595;
 	text-decoration: underline;
 }
 .site-info a:hover,
 .site-info a:active,
 .site-info a:focus {
-	color: #a00a74;
+	color: #3c4595;
 }
 .site-info .site-info-generator:after {
 	display: block;
