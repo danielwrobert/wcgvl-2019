@@ -8,7 +8,7 @@ Version:        0.1.0
 */
 
 /* Color Pallete */
-/* Apparently, custom properties are not supported in RemoteCSS */
+/* Apparently, custom properties are not supported in RemoteCSS :( */
 :root {
 	--color-white: #fff;
 	--color-black: #000;
@@ -477,8 +477,7 @@ a.cta-button:focus {
 .custom-header .custom-logo-link {
 	display: block;
 	margin: 0 auto;
-	/* padding: 175px 0 300px; */
-	padding: 180px 2% 170px;
+	padding: 175px 0 300px;
 	max-width: 600px;
 }
 /* .custom-header:before,
