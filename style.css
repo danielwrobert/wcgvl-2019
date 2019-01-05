@@ -477,7 +477,7 @@ a.cta-button:focus {
 .custom-header .custom-logo-link {
 	display: block;
 	margin: 0 auto;
-	padding: 175px 0 300px;
+	padding: 185px 0 300px;
 	max-width: 600px;
 }
 /* .custom-header:before,
@@ -839,11 +839,22 @@ body:not(.home) .custom-header:after {
 }
 
 .site-content {
+	background: transparent
+		url("https://2019.greenville.wordcamp.org/files/2019/01/content-bg.png")
+		right 20% no-repeat;
+	background-size: contain;
 	margin: 65px 0;
 }
 .site-main {
 	max-width: 900px;
 	margin: 0 auto;
+}
+.site-footer {
+	background: transparent
+		url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")
+		center bottom no-repeat;
+	background-size: cover;
+	padding-top: 262px;
 }
 
 /* body:not(.home) .site-main {
@@ -1704,6 +1715,7 @@ body.page-template-page-day-of .entry-content h3 {
 }
 .site-info a {
 	color: #fff;
+	padding: 0 5px;
 }
 .site-info a:hover,
 .site-info a:active,
