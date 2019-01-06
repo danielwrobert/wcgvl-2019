@@ -362,7 +362,8 @@ a.cta-button:focus {
 }
 .page-navigation-container ul ul {
 	top: 78px;
-	/* background: #ffffff; */
+	background: #ffffff;
+	background: rgba(255, 255, 255, 0.85);
 	padding: 10px 0 20px;
 }
 .page-navigation-container ul ul a {
