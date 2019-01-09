@@ -416,7 +416,17 @@ a.cta-button:focus {
 }
 
 .js .menu-toggle {
+	color: #00a99d;
 	width: 100%;
+	position: relative;
+}
+
+.js .menu-toggle:after {
+	content: "MENU";
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 @media screen and (max-width: 37.5em) {
@@ -433,7 +443,7 @@ a.cta-button:focus {
 	}
 	.page-navigation-container li:hover a,
 	.page-navigation-container li.focus a {
-		color: #ffffff;
+		/*color: #ffffff;*/
 		text-decoration: none;
 	}
 	.page-navigation-container a:focus {
@@ -454,7 +464,7 @@ a.cta-button:focus {
 	}
 	.page-navigation-container ul ul a {
 		width: 100%;
-		color: #ffffff;
+		/*color: #ffffff;*/
 	}
 	.page-navigation-container .callout {
 		position: static;
