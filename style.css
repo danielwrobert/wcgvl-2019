@@ -801,15 +801,9 @@ body:not(.home) .custom-header:after {
 }
 
 #footer-widget-1 {
-	/*background: #3c4595;*/
-	/*margin: 120px 0 60px;*/
-	/*padding: 120px 20px;*/
-
-	background: transparent
-		url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")
-		center bottom no-repeat;
-	background-size: cover;
-	padding-top: 262px;
+	background: #3c4595;
+	margin: 120px 0 60px;
+	padding: 120px 20px;
 }
 #footer-widget-1 .widget-title {
 	margin-top: 0;
@@ -826,9 +820,7 @@ body:not(.home) .custom-header:after {
 }
 #footer-widget-1 form {
 	display: grid;
-	/*grid-template-columns: 1fr 200px;*/
-	grid-template-columns: 100px 1fr;
-	grid-gap: 10px;
+	grid-template-columns: 1fr 200px;
 }
 @media screen and (max-width: 450px) {
 	#footer-widget-1 form {
@@ -855,7 +847,6 @@ body:not(.home) .custom-header:after {
 #footer-widget-1 input[type="submit"] {
 	width: 100%;
 	height: 100%;
-	grid-column-start: 2;
 }
 
 .site-content {
@@ -869,13 +860,13 @@ body:not(.home) .custom-header:after {
 	max-width: 900px;
 	margin: 0 auto;
 }
-/*.site-footer {*/
-/*background: transparent*/
-/*url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")*/
-/*center bottom no-repeat;*/
-/*background-size: cover;*/
-/*padding-top: 262px;*/
-/*}*/
+.site-footer {
+	background: transparent
+		url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")
+		center bottom no-repeat;
+	background-size: cover;
+	padding-top: 262px;
+}
 
 /* body:not(.home) .site-main {
 	margin: 0 auto;
