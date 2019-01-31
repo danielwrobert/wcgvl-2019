@@ -801,7 +801,7 @@ body:not(.home) .custom-header:after {
 }
 
 #footer-widget-1 {
-	background: #3c4595;
+	/*background: #3c4595;*/
 	/*margin: 120px 0 60px;*/
 	padding: 120px 20px;
 }
@@ -850,6 +850,7 @@ body:not(.home) .custom-header:after {
 	width: 100%;
 	height: 100%;
 	grid-column-start: 2;
+	background: #3c4595;
 }
 
 .site-content {
