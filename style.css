@@ -809,7 +809,7 @@ body:not(.home) .custom-header:after {
 		url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")
 		center bottom no-repeat;
 	background-size: cover;
-	padding: 262px 20px 120px;
+	padding-top: 262px;
 }
 #footer-widget-1 .widget-title {
 	margin-top: 0;
