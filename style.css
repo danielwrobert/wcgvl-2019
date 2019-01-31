@@ -803,7 +803,8 @@ body:not(.home) .custom-header:after {
 #footer-widget-1 {
 	/*background: #3c4595;*/
 	/*margin: 120px 0 60px;*/
-	padding: 120px 20px;
+	/*padding: 120px 20px;*/
+	padding: 20px 20px 80px;
 }
 #footer-widget-1 .widget-title {
 	margin-top: 0;
