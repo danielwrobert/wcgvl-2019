@@ -1019,6 +1019,11 @@ body.home:not(.page-template-page-day-of) .entry-content a {
 	color: #3c4595;
 	background: #00a99d;
 }
+body.home:not(.page-template-page-day-of)
+	.entry-content
+	.wp-block-button__link {
+	color: #fff;
+}
 body.home:not(.page-template-page-day-of) .entry-content a:hover,
 body.home:not(.page-template-page-day-of) .entry-content a:active,
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
