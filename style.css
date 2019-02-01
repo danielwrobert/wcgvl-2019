@@ -286,7 +286,8 @@ a.cta-button:focus {
 	font-weight: 900;
 	text-align: center;
 	text-decoration: none;
-	color: #3c4595;
+	color: #fff;
+	border-radius: 50px;
 	background: #38ccd5;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -310,7 +311,7 @@ a.cta-button:focus {
 .entry-content .wp-block-button__link:hover,
 .entry-content .wp-block-button__link:active,
 .entry-content .wp-block-button__link:focus {
-	color: #3c4595;
+	color: #fff;
 	background: #38ccd5;
 }
 
@@ -1037,11 +1038,11 @@ body.home:not(.page-template-page-day-of) .entry-content a:focus {
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
 	outline: 2px solid #3c4595;
 }
-body.home:not(.page-template-page-day-of) .entry-content a:hover,
-body.home:not(.page-template-page-day-of) .entry-content a:active,
-body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	color: #3c4595;
-}
+/*body.home:not(.page-template-page-day-of) .entry-content a:hover,*/
+/*body.home:not(.page-template-page-day-of) .entry-content a:active,*/
+/*body.home:not(.page-template-page-day-of) .entry-content a:focus {*/
+/*color: #fff;*/
+/*}*/
 
 body.error404 .page-content {
 	display: grid;
