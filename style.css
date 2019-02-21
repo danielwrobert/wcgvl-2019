@@ -1040,6 +1040,24 @@ body.home:not(.page-template-page-day-of) .entry-content a:focus {
 body.home:not(.page-template-page-day-of) .entry-content a:focus {
 	outline: 2px solid #3c4595;
 }
+body.home .entry-header {
+	display: none;
+}
+body.home .site-main .hentry {
+	padding: 50px 0;
+}
+body.home .entry-content > * {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+body.home .invert-color {
+	background: #00a99d;
+	padding: 50px;
+	color: #fff;
+}
+body.home .invert-color .wp-block-button__link {
+	background-color: #3c4595;
+}
 /*body.home:not(.page-template-page-day-of) .entry-content a:hover,*/
 /*body.home:not(.page-template-page-day-of) .entry-content a:active,*/
 /*body.home:not(.page-template-page-day-of) .entry-content a:focus {*/
