@@ -1246,11 +1246,11 @@ body.page-slug-schedule .site-main {
 
 .wcpt-schedule {
 	margin-bottom: 60px;
-	border-bottom: 2px solid #c6dc00;
+	border-bottom: 2px solid #00a99d;
 }
 .wcpt-schedule th {
 	padding: 20px 15px 5px;
-	border-bottom: 2px solid #c6dc00;
+	border-bottom: 2px solid #00a99d;
 	color: #3c4595;
 	font-weight: 900;
 	text-align: left;
@@ -1261,7 +1261,7 @@ body.page-slug-schedule .site-main {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	padding: 20px 15px;
-	border: 2px solid #c6dc00;
+	border: 2px solid #00a99d;
 	border-bottom: none;
 }
 @media screen and (min-width: 701px) {
@@ -1272,7 +1272,7 @@ body.page-slug-schedule .site-main {
 		width: 11%;
 		font-size: 14px;
 		font-size: 1.4rem;
-		background: rgba(198, 220, 0, 0.1);
+		background: rgba(0, 169, 157, 0.1);
 	}
 }
 @media screen and (max-width: 700px) {
@@ -1287,10 +1287,10 @@ body.page-slug-schedule .site-main {
 	border: none;
 }
 .wcpt-schedule td.wcpt-session-empty:last-of-type {
-	border-right: 2px solid #c6dc00;
+	border-right: 2px solid #00a99d;
 }
 .wcpt-schedule td.wcb-favourite-session {
-	background: rgba(198, 220, 0, 0.15);
+	background: rgba(0, 169, 157, 0.15);
 }
 .wcpt-schedule td.wcb-favourite-session a.fav-session-button {
 	color: #3c4595;
@@ -1330,7 +1330,7 @@ body.page-slug-schedule .site-main {
 	}
 	.wcpt-schedule tr {
 		border: none;
-		border-bottom: 2px solid #c6dc00;
+		border-bottom: 2px solid #00a99d;
 	}
 	.wcpt-schedule td.wcpt-session-empty {
 		display: none;
@@ -1353,7 +1353,7 @@ body.page-slug-schedule .site-main {
 	line-height: 1;
 	color: #3c4595;
 	border: none;
-	background: rgba(198, 220, 0, 0.4);
+	background: rgba(0, 169, 157, 0.4);
 	text-align: center;
 }
 @media screen and (min-width: 701px) {
@@ -1707,7 +1707,7 @@ body.page-template-page-day-of .entry-content h3 {
 	text-align: center;
 	text-decoration: none;
 	color: #3c4595;
-	background: #c6dc00;
+	background: #00a99d;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: bold;
