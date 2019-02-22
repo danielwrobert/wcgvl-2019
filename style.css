@@ -1051,6 +1051,7 @@ body.home:not(.blog) .invert-color {
 	background: #00a99d;
 	background: linear-gradient(to right, #00a99d, #1c7a99);
 	padding: 50px;
+	margin: 25px 0 50px;
 	color: #fff;
 }
 body.home:not(.blog) .invert-color .wp-block-button__link {
