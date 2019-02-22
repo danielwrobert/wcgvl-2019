@@ -352,10 +352,6 @@ a.cta-button:focus {
 	line-height: 1;
 	font-weight: 900;
 }
-/* .page-navigation-container li:hover,
-.page-navigation-container li.focus {
-	background: #ffffff;
-} */
 .page-navigation-container li:hover a,
 .page-navigation-container li.focus a {
 	color: #3c4595;
@@ -369,7 +365,6 @@ a.cta-button:focus {
 }
 .page-navigation-container ul ul a {
 	padding: 8px 30px;
-	/* color: #3c4595; */
 	width: 17em;
 }
 .page-navigation-container ul ul li:hover a,
@@ -400,17 +395,6 @@ a.cta-button:focus {
 .page-navigation-container .callout.focus a {
 	color: #3c4595;
 }
-/* @media (min-width: 1160px) {
-	.page-navigation-container:after {
-		content: '';
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		left: calc(50vw + 580px);
-		background: #3c4595;
-	}
-} */
 
 #site-navigation {
 	display: none !important;
@@ -444,7 +428,6 @@ a.cta-button:focus {
 	}
 	.page-navigation-container li:hover a,
 	.page-navigation-container li.focus a {
-		/*color: #ffffff;*/
 		text-decoration: none;
 	}
 	.page-navigation-container a:focus {
@@ -465,7 +448,6 @@ a.cta-button:focus {
 	}
 	.page-navigation-container ul ul a {
 		width: 100%;
-		/*color: #ffffff;*/
 	}
 	.page-navigation-container .callout {
 		position: static;
@@ -482,56 +464,15 @@ a.cta-button:focus {
 		url("https://2019.greenville.wordcamp.org/files/2018/12/banner-bg-resized.png")
 		center center no-repeat;
 	background-size: cover;
-	/* background: #3c4595; */
 	position: relative;
 }
 .custom-header .wp-custom-header,
 .custom-header .custom-logo-link {
 	display: block;
 	margin: 0 auto;
-	/*padding: 185px 0 300px;*/
-	/*max-width: 600px;*/
 	padding: 200px 0 285px;
 	max-width: 700px;
 }
-/* .custom-header:before,
-.custom-header:after {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	content: '';
-}
-.custom-header:before {
-	height: 300px;
-	background: transparent
-		url('http://svg.redradar.net/boston-2018/teal-tri.svg') no-repeat center;
-	background-size: 100% 100%;
-}
-.custom-header:after {
-	bottom: -1px;
-	height: 400px;
-	background: transparent
-		url('http://svg.redradar.net/boston-2018/white-tri.svg') no-repeat
-		center;
-	background-size: 100% 100%;
-} */
-
-/* Try a smaller logo on interior pages */
-/* body:not(.home) .custom-header .wp-custom-header,
-body:not(.home) .custom-header .custom-logo-link {
-	padding-top: 100px;
-	padding-bottom: 130px;
-	max-width: 500px;
-}
-
-body:not(.home) .custom-header:before {
-	height: 150px;
-}
-
-body:not(.home) .custom-header:after {
-	height: 200px;
-} */
 
 .widget {
 	margin: 0;
@@ -804,9 +745,6 @@ body:not(.home) .custom-header:after {
 }
 
 #footer-widget-1 {
-	/*background: #3c4595;*/
-	/*margin: 120px 0 60px;*/
-	/*padding: 120px 20px;*/
 	padding: 20px 20px 80px;
 }
 #footer-widget-1 .widget-title {
@@ -822,19 +760,19 @@ body:not(.home) .custom-header:after {
 	max-width: 780px;
 	color: #ffffff;
 }
-#footer-widget-1 form {
+/* #footer-widget-1 form {
 	display: grid;
-	/*grid-template-columns: 1fr 200px;*/
 	grid-template-columns: 100px 1fr;
 	grid-gap: 10px;
-}
-@media screen and (max-width: 450px) {
+} */
+/* @media screen and (max-width: 450px) {
 	#footer-widget-1 form {
 		grid-template-columns: 1fr;
 	}
-}
+} */
 #footer-widget-1 form input {
 	border-radius: 25px;
+	margin-bottom: 10px;
 }
 #footer-widget-1 form p {
 	margin-bottom: 0;
@@ -873,15 +811,8 @@ body:not(.home) .custom-header:after {
 		url("https://2019.greenville.wordcamp.org/files/2019/01/footer-bg.png")
 		center bottom no-repeat;
 	background-size: cover;
-	/*padding-top: 262px;*/
 	padding-top: 150px;
 }
-
-/* body:not(.home) .site-main {
-	margin: 0 auto;
-	max-width: 780px;
-	padding: 0 20px;
-} */
 
 .site-main .hentry {
 	background-color: #fefefe;
@@ -961,82 +892,6 @@ body.single .entry-footer .byline {
 	margin-left: 4px;
 }
 
-/* body.home:not(.page-template-page-day-of) .entry-header,
-body.home:not(.page-template-page-day-of) .entry-footer {
-	display: none;
-}
-
-body.home:not(.page-template-page-day-of) .hentry {
-	position: relative;
-	height: 100vh;
-	min-height: 600px;
-	max-height: 960px;
-	background: url('http://svg.redradar.net/boston-2018/photo.png') no-repeat
-		center;
-	background-size: cover;
-	display: grid;
-}
-body.home:not(.page-template-page-day-of) .hentry:after {
-	content: '';
-	position: absolute;
-	bottom: -1px;
-	left: 0;
-	right: 0;
-	height: 20vh;
-	min-height: 120px;
-	max-height: 192px;
-	background: transparent
-		url('http://svg.redradar.net/boston-2018/white-tri-flip.svg') no-repeat
-		center;
-	background-size: 100% 100%;
-} */
-
-/* body.home:not(.page-template-page-day-of) .entry-content {
-	max-width: 780px;
-	font-size: 20px;
-	font-size: 2rem;
-	line-height: 1.55;
-	color: #3c4595;
-	text-align: center;
-	margin: auto;
-}
-body.home:not(.page-template-page-day-of) .entry-content .cfa-title {
-	display: block;
-	margin-bottom: 30px;
-	font-size: 56px;
-	font-size: 5.6rem;
-	line-height: 1.1;
-	font-family: "freight-sans-condensed-pro", sans-serif;
-	font-weight: 900;
-	text-align: center;
-}
-body.home:not(.page-template-page-day-of) .entry-content a {
-	display: inline-block;
-	padding: 30px 50px;
-	font-size: 28px;
-	font-size: 2.8rem;
-	line-height: 1;
-	font-weight: 900;
-	text-align: center;
-	text-decoration: none;
-	color: #3c4595;
-	background: #00a99d;
-}
-body.home:not(.page-template-page-day-of)
-	.entry-content
-	.wp-block-button__link {
-	color: #fff;
-	border-radius: 50px;
-}
-body.home:not(.page-template-page-day-of) .entry-content a:hover,
-body.home:not(.page-template-page-day-of) .entry-content a:active,
-body.home:not(.page-template-page-day-of) .entry-content a:focus {
-	color: #fff;
-	-webkit-box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2),
-		0 1px 1px 0 rgba(79, 88, 0, 0.1);
-	box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2),
-		0 1px 1px 0 rgba(79, 88, 0, 0.1);
-} */
 body.home:not(.blog) .entry-header {
 	display: none;
 }
@@ -1077,11 +932,6 @@ body.home:not(.blog) .button-columns .wp-block-column:first-of-type a {
 body.home:not(.blog) .button-columns .wp-block-column:last-of-type a {
 	border-radius: 0 50px 50px 0;
 }
-/*body.home:not(.page-template-page-day-of) .entry-content a:hover,*/
-/*body.home:not(.page-template-page-day-of) .entry-content a:active,*/
-/*body.home:not(.page-template-page-day-of) .entry-content a:focus {*/
-/*color: #fff;*/
-/*}*/
 
 body.error404 .page-content {
 	display: grid;
