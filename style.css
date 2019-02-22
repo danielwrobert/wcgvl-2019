@@ -991,13 +991,13 @@ body.home:not(.page-template-page-day-of) .hentry:after {
 	background-size: 100% 100%;
 } */
 
-body.home:not(.page-template-page-day-of) .entry-content {
-	/*max-width: 780px;*/
+/* body.home:not(.page-template-page-day-of) .entry-content {
+	max-width: 780px;
 	font-size: 20px;
 	font-size: 2rem;
 	line-height: 1.55;
 	color: #3c4595;
-	/*text-align: center;*/
+	text-align: center;
 	margin: auto;
 }
 body.home:not(.page-template-page-day-of) .entry-content .cfa-title {
@@ -1036,7 +1036,7 @@ body.home:not(.page-template-page-day-of) .entry-content a:focus {
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
 	box-shadow: 0 2px 7px 2px rgba(79, 88, 0, 0.2),
 		0 1px 1px 0 rgba(79, 88, 0, 0.1);
-}
+} */
 body.home:not(.blog) .entry-header {
 	display: none;
 }
