@@ -782,19 +782,13 @@ a.cta-button:focus {
 #footer-widget-1 #subscribe-email input {
 	width: 100%;
 }
-#footer-widget-1 #subscribe-text {
-	grid-column: 1 / span 2;
-}
-@media screen and (max-width: 450px) {
-	#footer-widget-1 #subscribe-text {
-		grid-column: 1;
-	}
-}
 #footer-widget-1 input[type="submit"] {
 	width: 100%;
 	height: 100%;
 	grid-column-start: 2;
 	background: #3c4595;
+	max-width: 50%;
+	margin: 20px auto 0;
 }
 
 .site-content {
