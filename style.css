@@ -760,11 +760,13 @@ a.cta-button:focus {
 	max-width: 780px;
 	color: #ffffff;
 }
-/* #footer-widget-1 form {
-	display: grid;
+#footer-widget-1 form {
+	max-width: 575px;
+	margin: 0 auto;
+	/* display: grid;
 	grid-template-columns: 100px 1fr;
-	grid-gap: 10px;
-} */
+	grid-gap: 10px; */
+}
 /* @media screen and (max-width: 450px) {
 	#footer-widget-1 form {
 		grid-template-columns: 1fr;
