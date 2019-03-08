@@ -935,6 +935,20 @@ body.home:not(.blog) .button-columns .wp-block-column:first-of-type a {
 body.home:not(.blog) .button-columns .wp-block-column:last-of-type a {
 	border-radius: 0 50px 50px 0;
 }
+@media (max-width: 781px) {
+	body.home:not(.blog) .button-columns .wp-block-column:first-of-type a,
+	body.home:not(.blog) .button-columns .wp-block-column:last-of-type a {
+		border-radius: 50px;
+	}
+	.button-columns .wp-block-column .alignleft,
+	.button-columns .wp-block-column .alignright {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		display: block;
+	}
+}
 
 body.error404 .page-content {
 	display: grid;
