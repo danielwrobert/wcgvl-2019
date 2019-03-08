@@ -474,7 +474,11 @@ a.cta-button:focus {
 	max-width: 700px;
 }
 @media screen and (max-width: 37.5em) {
+	.site {
+		overflow-x: hidden;
+	}
 	.custom-header .wp-custom-header {
+		-webkit-clip-path: inset(25% 62% 25% 0%);
 		clip-path: inset(25% 62% 25% 0%);
 		position: relative;
 		transform: scale(1.8) translate(32%, 5%);
