@@ -473,6 +473,14 @@ a.cta-button:focus {
 	padding: 200px 0 285px;
 	max-width: 700px;
 }
+/*@media screen and (max-width: 599px) {*/
+@media screen and (max-width: 37.5em) {
+	.custom-header .wp-custom-header {
+		clip-path: inset(25% 62% 25% 0%);
+		position: relative;
+		transform: scale(1.8) translate(32%, 5%);
+	}
+}
 
 .widget {
 	margin: 0;
